@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    background-image:
+        linear-gradient(black, rgba(0, 0, 0, 0.132), rgba(255, 255, 255, 0)),
+        url('src/assets/background_1.png'), 
+        linear-gradient(
+            rgb(0, 0, 0), rgb(0, 0, 0),rgb(0, 0, 0));
+
+    height: 80vh;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+    gap: 3vh;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+img {
+    width: 35vw;
+}
+
+p {
+    font-size: 1.1vw;
+}

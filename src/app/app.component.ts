@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-website';
+  cursorX = 0;
+  cursorY = 0;
+
+  updateCursorPosition(event: MouseEvent): void {
+    this.cursorX = event.clientX - 100; // Offset to center the highlight
+    this.cursorY = event.clientY - 100; // Offset to center the highlight
+  }
 }
