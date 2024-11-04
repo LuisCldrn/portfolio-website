@@ -1,0 +1,40 @@
+.experiences {
+    height: auto;
+    background-image: linear-gradient(black, black);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    height: auto;
+    padding: 3vh 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.85rem;
+}
+
+.skills {
+    font-style: italic;
+}
+
+.company {
+
+}
+
+ul {
+    font-size: 1rem;
+    list-style-type: disc;
+    padding-left: 2vw;
+}
+
+li {
+    font-size: 0.9rem;
+}

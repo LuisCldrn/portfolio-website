@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { LanguagessecComponent } from './languagessec/languagessec.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { LanguagessecComponent } from './languagessec/languagessec.component';
     FooterComponent,
     LandingComponent,
     AboutmeComponent,
-    LanguagessecComponent
+    LanguagessecComponent,
+    ProjectsComponent,
+    ExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
