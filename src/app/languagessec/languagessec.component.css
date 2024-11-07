@@ -1,0 +1,59 @@
+.alltech {
+    display: flex;
+    gap: 2vw;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.074), rgba(0, 0, 0, 0.274),rgb(0, 0, 0)), radial-gradient(rgba(0, 0, 0, 0.675), rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.842)),
+    url('src/assets/15410.jpg'), 
+    linear-gradient(
+        rgb(0, 0, 0), rgb(0, 0, 0),rgb(0, 0, 0)); 
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 45vh;
+    background-color: #1e1e1e;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    font-weight: bold;
+    padding: 3vw;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    text-align:end;
+    
+}
+
+ol {
+    justify-content: start !important;
+    align-items: start!important;
+}

@@ -1,9 +1,19 @@
 <div class="experiences">
-    <div class="exp" *ngFor="let experience of experiences">
-        <h3 class="title">{{experience.job}}</h3>
-        <p class="skills">{{experience.skills}}</p>
-        <ul *ngFor="let desc of experience.description">
-            <li>{{desc}}</li>
-        </ul>
-    </div> 
+    <div class="card">
+        <p-timeline [value]="experiences" class="cards">
+            <ng-template pTemplate="content" let-experience class="cards">
+                <p-card class="cards" [header]="experience.job" [subheader]="experience.Company">
+                    <p>{{experience.skills}}</p>
+                    <ul>
+                        <li *ngFor="let item of experience.description">
+                            {{item}}
+                        </li>
+                    </ul>
+                </p-card>
+            </ng-template>
+            <ng-template pTemplate="opposite" let-event>
+                <h4>{{event.date}}</h4>
+            </ng-template>
+        </p-timeline>
+    </div>
 </div>

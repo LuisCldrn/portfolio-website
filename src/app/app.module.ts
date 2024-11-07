@@ -11,6 +11,9 @@ import { LanguagessecComponent } from './languagessec/languagessec.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
+import {TimelineModule} from 'primeng/timeline'
+import { CardModule } from 'primeng/card';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,11 @@ import { EducationComponent } from './education/education.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TimelineModule,
+    CardModule,
+    ButtonModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
