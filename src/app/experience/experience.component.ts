@@ -33,7 +33,7 @@ export class ExperienceComponent {
   experience_one = {
     job: 'Freelance Web Developer',
     skills: 'Angular, React, Javascript, Typescript',
-    date: '2023 - Current',
+    date: 'June 2023 - Sept 2024',
     icon: 'pi pi-check',
     description: [
       'Translated client requirements into responsive, SEO-optimized web applications using Angular and React, delivering high-quality, interactive, and visually appealing designs.',

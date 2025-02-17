@@ -16,3 +16,7 @@ button {
     border-radius: 0.5vw;
     cursor: pointer;
 }
+
+li:hover {
+    opacity: 70%;
+}

@@ -1,0 +1,63 @@
+.card {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+}
+
+.web_img {
+    width: 35vw;
+    height: 20vw;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    border: white solid 1px;
+    border-left: none;
+    justify-content: center;
+    width: 60vw;
+    padding: 2vw;
+    gap: 2vh;
+    border-radius:0vw 1vw 1vw 0vw ;
+    /* align-items: center; */
+}
+
+.info_card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.info_card p {
+    font-size: 0.8rem;
+}
+
+.icons img {
+    width: 3vw;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.github_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}

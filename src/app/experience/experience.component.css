@@ -1,6 +1,6 @@
 .experiences {
     height: auto;
-    background-image:radial-gradient(black, rgba(0, 0, 0, 0.43), rgba(255, 255, 255, 0)),
+    background-image:radial-gradient(black, rgba(0, 0, 0, 0.43), rgba(255, 255, 255, 0), black),
     url('src/assets/background_1.png'), 
     linear-gradient(
         rgb(0, 0, 0), rgb(0, 0, 0),rgb(0, 0, 0)); 
