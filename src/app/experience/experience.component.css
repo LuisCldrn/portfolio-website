@@ -58,3 +58,41 @@ li {
 ::ng-deep .p-timeline-event-content {
     width: 60vw;
 }
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 1075px) {
+
+    ::ng-deep .p-timeline-event-content {
+        width: 80vw !important;
+    }
+    ::ng-deep .p-timeline-event-opposite {
+        display: none !important;
+    }
+
+    ::ng-deep .p-card-title {
+        font-size: 1.2rem;
+    }
+
+    ::ng-deep .p-card-content {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    ::ng-deep .p-timeline-event-separator {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    ::ng-deep .p-timeline-event-content {
+        width: 95vw !important;
+    }
+    
+}

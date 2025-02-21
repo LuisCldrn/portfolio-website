@@ -1,11 +1,31 @@
-<nav class="flex justify-between p-[3vh]">
-    <a class="" href="">{{websiteTitle}}</a>
-    <ul class="flex gap-5">
-        <li><a (click)="this.scroller.scrollToPosition([0,0])">Home</a></li>
-        <li><a (click)="this.ScrollserviceService.goTo('Projects')">Projects</a></li>
-        <li><a (click)="this.ScrollserviceService.goTo('Experience')">Experience</a></li>
-        <li><a (click)="this.ScrollserviceService.goTo('Education')">Education</a></li>
-        <li><a (click)="this.ScrollserviceService.goTo('About Me')">About Me</a></li>
-    </ul>
-    <button>DOWNLOAD RESUME</button>
+<nav class="flex justify-between">
+  <a class="" href="">{{ websiteTitle }}</a>
+  <div
+    class="navbar__toggle"
+    id="mobile-menu"
+    class="{{ mobileM }}"
+    (click)="mobile()"
+  >
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+  <ul class="flex gap-5 navbar_menu {{ mobileMenu }}">
+    <li class="nav-item" class="navbar__item" (click)="mobile()">
+      <a class="nav-link" (click)="this.scroller.scrollToPosition([0, 0])">Home</a>
+    </li>
+    <li class="nav-item" class="navbar__item" (click)="mobile()">
+      <a class="nav-link" (click)="this.ScrollserviceService.goTo('Projects')">Projects</a>
+    </li>
+    <li class="nav-item" class="navbar__item" (click)="mobile()">
+      <a class="nav-link" (click)="this.ScrollserviceService.goTo('Experience')">Experience</a>
+    </li>
+    <li class="nav-item" class="navbar__item" (click)="mobile()">
+      <a class="nav-link" (click)="this.ScrollserviceService.goTo('Education')">Education</a>
+    </li>
+    <li class="nav-item" class="navbar__item" (click)="mobile()">
+      <a class="nav-link" (click)="this.ScrollserviceService.goTo('About Me')">About Me</a>
+    </li>
+    <button class="btn" id="resume_btn" >DOWNLOAD RESUME</button>
+  </ul>
 </nav>

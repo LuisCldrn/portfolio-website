@@ -29,3 +29,37 @@ h4 {
 p {
     max-width: 50vw;
 }
+
+@media only screen and (max-width: 1075px) {
+    .ed {
+        padding-left: 0;
+        padding: 3vw;
+    }
+    img {
+        width: 25vw;
+    }
+
+    p {
+        max-width: none;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .ed {
+        padding-left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5vw;
+    }
+    img {
+        width: 25vw;
+    }
+
+    p {
+        max-width: fit-content;
+    }
+    
+}
