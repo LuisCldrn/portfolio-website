@@ -59,6 +59,10 @@ li {
     width: 60vw;
 }
 
+::ng-deep .p-card {
+    border-radius: 0.8vw;
+}
+
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
